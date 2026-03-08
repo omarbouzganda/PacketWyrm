@@ -14,7 +14,7 @@ bash
 sudo apt update && sudo apt install -y libpcap-dev
 
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/packetwyrm.git
+git clone https://github.com/omarbouzganda/packetwyrm.git
 cd packetwyrm/packetwyrm-backend
 
 # Build
