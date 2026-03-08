@@ -1,0 +1,12 @@
+services:
+  backend:
+    build: ./backend
+    container_name: packetwyrm
+    network_mode: host
+    privileged: true
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    volumes:
+      - ./frontend:/app/frontend:ro
+    restart: unless-stopped
