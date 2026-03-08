@@ -48,7 +48,7 @@ Watch packets flow in real-time!
 📋 One-Line Install (Kali/Linux)
 bash
 
-sudo apt install -y libpcap-dev && git clone https://github.com/YOUR_USERNAME/packetwyrm.git && cd packetwyrm/packetwyrm-backend && go mod tidy && go build -o packetwyrm . && sudo ./packetwyrm
+sudo apt install -y libpcap-dev && git clone https://github.com/omarbouzganda/packetwyrm.git && cd packetwyrm/packetwyrm-backend && go mod tidy && go build -o packetwyrm . && sudo ./packetwyrm
 🛠️ Features
 Feature
 How to Use
